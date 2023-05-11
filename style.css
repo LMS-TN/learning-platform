@@ -84,7 +84,10 @@ background-size: 100%;
         width: 100px;
 }
 
-
+.home-text h1{
+    margin-left: 450px;
+  width: 500px;
+}
 
 
 /* #coursesimage{
@@ -125,7 +128,7 @@ background-size: 100%;
 #coursesbtn{
     padding: 22px 13px;
     color:currentColor;
-    position: fixed;
+   
     /* left: 20px;
     height: 20px; */
     margin-left: 100px;
@@ -153,4 +156,35 @@ background-size: 100%;
     width: 9em;
     padding: 152px 24px;
 } */
+
+#about{
+  margin-left: 200px;
+  background-color: #e1e2ef;
+}
+
+.about-text h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+	font-weight: 800;
+    margin: 0.5rem 0 1.4rem;
+}
+
+.about-text h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+	font-weight: 800;
+    margin: 3rem 0 1.4rem;
+}
+
+.about-text p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
