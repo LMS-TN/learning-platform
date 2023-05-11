@@ -109,7 +109,7 @@ background-size: 100%;
 
 #studentsbtn{
   
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     /* left: 20px;
     height: 20px; */
@@ -128,7 +128,7 @@ background-size: 100%;
 #coursesbtn{
     padding: 22px 13px;
     color:currentColor;
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* left: 20px;
     height: 20px; */
     margin-left: 100px;

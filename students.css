@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-padding-top: 2rem;
+	text-decoration:none;
+	scroll-behavior: smooth;
+	list-style: none;
+	scroll-padding-top: 50px;
+	font-family: Poppins Italic;
+
+}
+
+header{
+	
+    position: fixed;
+    width: 4%;
+    display: flex;
+    justify-content: space-between;
+   background: #3e547efb;
+   box-shadow: 0 4px 41px rgba(76, 86, 119, 0.14) ;
+   padding:5px 9.5% ;
+   transition: 0.2s;
+   padding-bottom: 90px;
+   padding-top: 290px;
+   border-radius: 10%;
+   
+ 
+}
+
+.navbar{
+    display: flex;
+	margin-left: -130px;
+    align-items: center;
+    
+   
+}
+
+.navbar a{
+	font-size: 1.5rem;
+	padding: 30px 0.4px;
+	color: #bfc0cd;
+	font-weight: 600px;
+	text-transform: uppercase ;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.icons{
+    width: 50px;
+    margin-left: 70px;
+}
+
+
+#people{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #f0efef;
+    border-radius: 100px;
+	margin-left: 400px;
+	width: 50% ;
+	min-height: 40px;
+}
+
+#people{
+    color: #333652;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+	font-weight: 800; 
+}
+
+.add{
+    border: 2px solid ;
+    border-radius: 40px;
+    width: 100px;
+    padding: 20px 20px;
+}
+
+.search{
+    border: 2px solid ;
+    border-radius: 40px;
+    width: 150px;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
