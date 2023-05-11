@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <link rel="stylesheet" type="text/css" href="students.css"/>
     <title>Students</title>
 </head>
@@ -20,12 +21,42 @@
     </header>
 
     <section id="people">
-        <h1>PEOPLE</h1>
+        
         <div class="action">
-           <button class="add" id="add" >Add People</button>
+            <h1>PEOPLE</h1>
+           <button class="addOne" id="add" >Add People</button>
            <input class="search" placeholder="Search people... "/>
         </div>
+
+    <div class="addPeople">
+        <div class="box">
+            <img class="closeOne" src="images\close.png" alt="close" />
+            <h1>Sheet :</h1>
+            <form>                
+                <div class="form-control">
+                    <label for="FullName">FullName</label>
+                  <input type="FullName" id="FullName" value="" />
+                </div>
+                
+                <div class="form-control">
+                    <label for="email">email</label>
+                  <input type="email" id="email" value="" />
+                </div>
+                
+                <div class="form-control">
+                  <label for="Grade">Grade</label>
+                  <input type="Grade" id="Grade" value=""/>
+                </div>
+               
+                <button class="button" id="button">Add</button>
+              </form>
+        </div>
+    </div>
     </section>
+
+<section class="list">
+ 
+</section>
 
 
 
