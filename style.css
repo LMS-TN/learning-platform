@@ -1,0 +1,39 @@
+#coursesimage{
+    width: 196%;
+    position: relative;
+    left: -52px;
+    height: 221px;
+}
+#studentsimage{
+    width: 196%;
+    position: relative;
+    left: -23px;
+    height: 221px;
+}
+#studentsbtn{
+    padding: 22px 13px;
+    color:currentColor;
+    position: relative;
+    left: 20px;
+    height: 20px;
+}
+#coursesbtn{
+    padding: 22px 13px;
+    color:currentColor;
+    position: relative;
+    left: 20px;
+    height: 20px;
+}
+.students-button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    padding: 22px 13px;
+}
+.courses-button{
+    margin-left: 382px;
+    margin-right: 100px;
+    width: 9em;
+    padding: 152px 24px;
+}
+}
