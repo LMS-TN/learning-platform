@@ -36,4 +36,23 @@
     width: 9em;
     padding: 152px 24px;
 }
+header{
+    background-color: blueviolet;
+    margin-top: 14px;
+    padding-bottom: 57px;
+    margin-left: -12px;
+    margin-right: -8px;
+}
+nav{
+    float: right;
+}
+nav ul {
+list-style: none;
+
+}
+nav li {
+ display: inline-block;  
+ margin-left: 70px;
+ margin-right: 78px;
+ padding-top: 70px;
 }
