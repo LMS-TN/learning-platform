@@ -14,7 +14,7 @@ function hide() {
   }
 
 
-//////////
+/////////////// show list students //////////
 //each
 function each(coll, f) { 
     if (Array.isArray(coll)) { 
@@ -38,26 +38,91 @@ function map(array, f) {
 }
 
 var data =[
-{fullName:"Tesnim Drissi",email:"drissitesnime8@gmail.com",grade:"good"},
-{fullName:"Mohamed Selim Thebet ",email:"MohamedSelimThebet@gmail.com",grade:"excellent"},
-{fullName:"Nadine Benarbia",email:"NadineBenarbia@gmail.com",grade:"good"},
-{fullName:"Yecine Amrouche",email:"YecineAmrouche@gmail.com",grade:"very good"},
+{fullName:"Tesnim Drissi", email:"drissitesnime8@gmail.com", grade:"good"},
+{fullName:"Mohamed Selim Thebet " , email:"MohamedSelimThebet@gmail.com", grade:"excellent"},
+{fullName:"Nadine Benarbia", email:"NadineBenarbia@gmail.com", grade:"good"},
+{fullName:"Yecine Amrouche", email:"YecineAmrouche@gmail.com", grade:"very good"}
 ]
 
 var studentList = document.createElement('div')
+// studentList.classList.add('studentsList')
 
 function showList(data){
 return map(data , function(element){
     var list = `<div>
-    <p>${element.fullName}</p>
-    <p>${element.email}</p>
-    <p>${element.grade}</p>
+    <ul>
+    <li class="name">Name: ${element.fullName}</li>
+    <li class="email">Email: ${element.email}</li>
+    <li class="grade">Grade: ${element.grade}</li>
+    </ul>
 </div>`;
    return studentList.innerHTML=list
 })
 }
 
-showList(data)
 
 console.log(showList(data));
+
+var lists = document.getElementsByClassName('list')
+
+// lists[0].appendChild(studentList)
+// lists[0].innerHTML = `<div class="studentsList">${showList(data)}</div>`
+
+
+////////////////// add student //////////
+
+const button = document.querySelector('#button')
+
+console.log(button);
+
+
+console.log(data);
+
+
+var added= {}
+
+
+
+button.onclick=function (e){
+    e.preventDefault()
+    var full= document.getElementById('FullName').value
+    var mail= document.getElementById('email').value
+    var  grad= document.getElementById('Grade').value
+    added.grade = grad
+    added.email = mail
+    added.fullName = full
+    console.log(data);
+console.log(mail, "full");
+      data.push(added)
+      
+      setTimeout(() => {
+        lists[0].innerHTML = `<div class="studentsList">${showList(data)}</div>`
+    }, 1000);
+    showList(data)
+    console.log(added);
+    console.log(data);
+}
+
+
+
+
+// function addEmail(){
+//     mail= document.getElementById('email').value
+//     added.email = mail
+   
+// }
+
+// function addGrad(){
+//     grad= document.getElementById('Grade').value
+//     added.Grade = grad
+    
+// }
+
+
+/////////  search //////
+
+
+
+
+
 

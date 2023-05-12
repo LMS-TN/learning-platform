@@ -82,6 +82,10 @@ header{
     padding: 20px 20px;
 }
 
+.addOne:hover{
+    background: #bfc0cd;
+}
+
 .search{
     border: 2px solid ;
     border-radius: 40px;
@@ -89,6 +93,19 @@ header{
     padding: 30px 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.enter{
+    border: 2px solid ;
+    border-radius: 40px;
+    width: 100px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.enter:hover{
+    background: #bfc0cd;
 }
 
 .addPeople{
@@ -154,3 +171,7 @@ font-size: x-small;
     width: 100px;
     padding: 20px 20px;
   }
+
+.studentsList{
+    margin-left: 500px;
+}
