@@ -25,6 +25,15 @@ header{
     padding-top: 35px;
     border-radius: 4%;
  }
+
+ body{
+  background-color: #aecaffb3;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+
  .navbar{
     display: flex;
 	margin-left: -130px;
@@ -65,16 +74,21 @@ header{
   }
   .menu {
     display: inline-block;
+   
   }
   .menu > li {
     float: left;
-    color: #93c3ff;
-    width: 315px;
-    height: 54px;
+    color: lch(14 48.5 293.74 / 0.92);
+    width: 469px;
+    height: 56px;
     line-height: 51px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgb(0 0 0 / 45%);
     cursor: pointer;
-    font-size: 21px;
+    font-size: 23px;
+    margin: 20px;
+    font-style: italic;
+    position: relative;
+    left: 99px;
   }
   .sub-menu {
     transform: scale(0);
@@ -82,14 +96,18 @@ header{
     transition: all 300ms ease-in-out;
   }
   .sub-menu li {
-    font-size: 14px;
-    background: rgba(0, 0, 0, 0.8);
+    font-size: 28px;
+    background: rgb(205 139 141 / 59%);
     padding: 8px 0;
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     transform: scale(0);
     transform-origin: top center;
     transition: all 300ms ease-in-out;
+    position: relative;
+    left: 0px;
+    top: 6px;
+
   }
   .sub-menu li:last-child {
     border-bottom: 0;
